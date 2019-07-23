@@ -2,7 +2,7 @@ This code is an Excel snip to allow you to convert Time into a decimal of larger
 
 # Seconds as Decimal Minutes (or Minutes as Decimal Hours)
 =(1/60)*[seconds]
-## Guide
+#### Guide
 
 | Units | 2-Decimal | 3-Decimal |
 | --- | --- | --- |
@@ -19,9 +19,9 @@ This code is an Excel snip to allow you to convert Time into a decimal of larger
 | 55 | 0.92 | 0.917 |
 | 60 | 1.00 | 1.000 |
 
-Hours as Decimal Day
+# Hours as Decimal Day
 =(1/24)*[hours]
-
+#### Guide
 | Units | 2-Decimal | 3-Decimal |
 | --- | --- | --- |
 | 12 | 0.50 | 0.500 |
