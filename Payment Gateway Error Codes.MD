@@ -13,7 +13,7 @@
 | 10	| Approved For Partial Amount	| Yes		| The transaction was successful |
 | 11	| Approved, VIP	| Yes		| The transaction was successful |
 | 12	| Invalid Transaction	| No| 	Data	The customer’s bank (Card Issuer) has declined the transaction because of an invalid format or field. Check the transaction information and try processing the transaction again. |
-| 13	| Invalid Amount	| No	Data	An invalid character (e.g. a dollar sign or a space) may be being passed to the gateway. Check your website’s code. |
+| 13	| Invalid Amount	| No	| Data	An invalid character (e.g. a dollar sign or a space) may be being passed to the gateway. Check your website’s code. |
 | 14	| Invalid Card Number	| No	| Card Number	The customer’s bank (Card Issuer) has declined the transaction as the Credit Card number does not exist. Check the credit card information and try processing the transaction again. |
 | 15	| No Issuer	| Yes		| The customer’s bank (Card Issuer) does not exist. Check the credit card information and try processing the transaction again. |
 | 16	| Approved, Update Track 3	| No	| 	The transaction was successful |
@@ -26,9 +26,9 @@
 | 31	| Bank Not Supported By Switch	| No	| 	The customer’s bank (Card Issuer) has declined the transaction as it does not allow transactions originating through mail / telephone, fax, email or Internet orders. This error is associated customers attempting to use a Discover Card. The customer should use an alternate credit card. |
 | 33	| Expired Card, Capture	| No	| 	The customer’s bank (Card Issuer) has declined the transaction as Credit Card has expired or the date is incorrect. Check the expiry date in the transaction and try processing the transaction again. |
 | 34	| Suspected Fraud, Retain Card	| No		| The customer’s bank (Card Issuer) has declined the transaction as there is a suspected fraud on this Credit Card number. |
-| 35	| Card Acceptor, Contact Acquirer, Retain Card	No		The customer’s bank (Card Issuer) has declined the transaction and requested that the customer’s credit card be retained (card reported lost or stolen). The customer should use an alternate credit card. |
-| 36	| Restricted Card, Retain Card	| No		| The customer’s bank (Card Issuer) has declined the transaction and requested that the customer’s credit card be retained. (card reported lost or stolen) The customer should use an alternate credit card. |
-| 37	| | Contact Acquirer Security Department, Retain Card	| No		| The customer’s bank (Card Issuer) has declined the transaction and requested that your customer’s credit card be retained. (card reported lost or stolen) The customer should use an alternate credit card. |
+| 35	| Card Acceptor, Contact Acquirer, Retain Card	| No	| The customer’s bank (Card Issuer) has declined the transaction and requested that the customer’s credit card be retained (card reported lost or stolen). The customer should use an alternate credit card. |
+| 36	| Restricted Card, Retain Card	| No	| The customer’s bank (Card Issuer) has declined the transaction and requested that the customer’s credit card be retained. (card reported lost or stolen) The customer should use an alternate credit card. |
+| 37	| Contact Acquirer Security Department, Retain Card	| No	| The customer’s bank (Card Issuer) has declined the transaction and requested that your customer’s credit card be retained. (card reported lost or stolen) The customer should use an alternate credit card. |
 | 38	| PIN Tries Exceeded, Capture	| No		| The customer’s bank (Card Issuer) has declined the transaction as the customer has entered the incorrect PIN three times. The customer’s bank (Card Issuer) has requested you retain the credit card. The customer should use an alternate credit card and contact their bank. |
 | 39	| No Credit Account	| No		| The customer’s bank has declined the transaction as the Credit Card number used is not a credit account. The customer should use an alternate credit card. |
 | 40	| Function Not Supported	| No		| The customer’s bank (Card Issuer) has declined the transaction as it does not allow this type of transaction. The customer should use an alternate credit card. |
@@ -37,7 +37,7 @@
 | 43	| Stolen Card	| No		| The customer’s bank (Card Issuer) has declined the transaction as the card has been reported stolen. The customer should use an alternate credit card. |
 | 44	| No Investment Account	| No		| The customer’s bank (Card Issuer) has declined the transaction as the account type selected is not valid for this credit card number. The customer should use an alternate credit card. |
 | 51	| Insufficient Funds	| No		| The customer’s bank (Card Issuer) has declined the transaction as the credit card does not have sufficient funds. The customer should use an alternate credit card. |
-| 52	| No Cheque Account| 	| No		| The customer’s bank (Card Issuer) has declined the transaction as the credit card number is associated to a cheque account that does not exist. The customer should use an alternate credit card. |
+| 52	| No Cheque Account	| No		| The customer’s bank (Card Issuer) has declined the transaction as the credit card number is associated to a cheque account that does not exist. The customer should use an alternate credit card. |
 | 53	| No Savings Account	| No		| The customer’s bank (Card Issuer) has declined the transaction as the credit card number is associated to a savings account that does not exist. The customer should use an alternate credit card. |
 | 54	| Expired Card	| No		| The customer’s bank (Card Issuer) has declined the transaction as the credit card appears to have expired. The customer should check the expiry date entered and try again, or use an alternate credit card. |
 | 55	| Incorrect PIN	| No		| The customer’s bank (Card Issuer) has declined the transaction as the customer has entered an incorrect PIN. The customer should re-enter their PIN, otherwise use an alternate credit card. |
